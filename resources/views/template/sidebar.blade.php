@@ -6,10 +6,9 @@
           <a href="./index.html" class="brand-link">
             <!--begin::Brand Image-->
             <img
-              src="assets/img/AdminLTELogo.png"
+              src="..assets/img/AdminLTELogo.png"
               alt="AdminLTE Logo"
-              class="brand-image opacity-75 shadow"
-            />
+              class="brand-image opacity-75 shadow"/>
             <!--end::Brand Image-->
             <!--begin::Brand Text-->
             <span class="brand-text fw-light">SIMPADU</span>
@@ -26,14 +25,21 @@
               class="nav sidebar-menu flex-column"
               data-lte-toggle="treeview"
               role="menu"
-              data-accordion="false"
-            >
-              <li class="nav-item">
-                <a href="index.php" class="nav-link">
-                  <i class="nav-icon bi bi-palette"></i>
-                  <p>Mahasiswa</p>
+              data-accordion="false">
+              <li class="nav-item menu-open">
+                <a href="#" class="nav-link active">
+                  <i class="nav-icon bi bi-speedometer"></i>
+                  <p>
+                    Mahasiswa</p>
+                    <i class="nav-arrow bi bi-chevron-right"></i>
+                  </p>
                 </a>
-              </li>  
+              </ul>
+              <ul
+                class="nav sidebar-menu flex-column"
+                data-lte-toggle="treeview"
+                role="menu"
+                data-accordion="false">
               <li class="nav-item">
                 <a href="prodi.php" class="nav-link">
                   <i class="nav-icon bi bi-journals"></i>
